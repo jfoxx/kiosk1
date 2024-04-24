@@ -1,6 +1,8 @@
 import {
   decorateBlock,
   buildBlock,
+  getAllMetadata,
+  getMetadata,
   loadBlock,
   sampleRUM,
   loadHeader,
