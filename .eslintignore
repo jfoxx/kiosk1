@@ -1,5 +1,6 @@
 helix-importer-ui
 ued.js
+aem.js
 scripts/uswds*
 gulpfile.js
 /plugins/

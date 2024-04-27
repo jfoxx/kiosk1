@@ -18,7 +18,6 @@ import {
   getMetadata,
 } from './aem.js';
 
-
 const AUDIENCES = {
   mobile: () => window.innerWidth < 600,
   desktop: () => window.innerWidth >= 600,
@@ -51,7 +50,6 @@ const pluginContext = {
   toCamelCase,
   toClassName,
 };
-
 
 /**
  * Grab the current URL and search for a given keyword
@@ -265,8 +263,6 @@ async function loadEager(doc) {
   if (main) {
     decorateMain(main);
     await waitForLCP(LCP_BLOCKS);
-    
-
   }
 }
 
