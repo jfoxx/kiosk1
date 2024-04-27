@@ -70,3 +70,10 @@ body>header { min-height: 220px;
         }
       }
     }
+
+    //make images round and smaller
+.usa-graphic-list img.usa-media-block__img {
+   border-radius: 50%;
+   width: 180px;
+   height: 180px;
+}
